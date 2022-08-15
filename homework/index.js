@@ -26,8 +26,8 @@ for (let i = 0; i < 300; i++) {
 }
 
 function getFilesizeInBytes(filename) {
-  var stats = fs.statSync(filename);
-  var fileSizeInBytes = stats.size;
+  let stats = fs.statSync(filename);
+  let fileSizeInBytes = stats.size;
   return fileSizeInBytes;
 }
 
